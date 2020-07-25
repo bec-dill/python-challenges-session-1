@@ -47,7 +47,22 @@ list_of_names = [(name)]
 
 print(list_of_names)
 
-print("Q4")
+# print("Q4") CANNOT WORK THIS OUT
 
+# string = input("Please enter a string: ")
+
+# print(string)
+
+# string_list = [string]
+
+# print(string_list)
+
+# string_list = string.split()
+
+# print(string_list)
+
+# string_list.split()
+
+# print(string_list)
 
 
