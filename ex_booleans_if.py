@@ -52,16 +52,18 @@ elif not is_car_detected and is_light_colour_amber:
 elif is_car_detected and is_light_colour_amber:
     print("Do nothing")
 
-# print("Q4") NEED TO FINISH THIS QUESTION ONLY
+print("Q4")
 
-# safe_to_ride = 120
+safe_to_ride = 120
 
-# height = int(input(f"Hi, how tall are you? "))
+height_prompt = int(input("Hi, how tall are you? "))
 
-# if height <=safe_to_ride:
-#     print: ("Sorry, Not today :(")
+height = height_prompt
 
-# else:
-#     print("Hop on!")
+if height <= 119:
+    print("Sorry not today :(")
 
+else:
+    print("Hop on!")
 
+#this is done

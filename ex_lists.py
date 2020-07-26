@@ -43,26 +43,20 @@ print ("Q3")
 
 name = input("Please give me three names? ")
 
-list_of_names = [(name)]
+list_of_names = name.split()
 
-print(list_of_names)
+print(len(list_of_names),list_of_names)
 
-# print("Q4") CANNOT WORK THIS OUT
-
-# string = input("Please enter a string: ")
-
-# print(string)
-
-# string_list = [string]
-
-# print(string_list)
-
-# string_list = string.split()
-
-# print(string_list)
-
-# string_list.split()
-
-# print(string_list)
+print("Q4")
 
 
+string = input("Please enter a string. ")
+
+yourlist = string.split()
+print(len(yourlist),yourlist)
+
+yourlist = list(string)
+print(len(string),list(string))
+
+
+#This is complete
